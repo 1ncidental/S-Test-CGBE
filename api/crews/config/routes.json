@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/crews",
+      "handler": "Crews.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/crews/:_id",
+      "handler": "Crews.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/crews",
+      "handler": "Crews.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/crews/:_id",
+      "handler": "Crews.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/crews/:_id",
+      "handler": "Crews.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "operator",
+  "info": {
+    "name": "operator",
+    "description": "Crew Definitions"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Telephone": {
+      "type": "integer"
+    },
+    "crews": {
+      "model": "crews",
+      "via": "operators"
+    },
+    "Name": {
+      "unique": true,
+      "type": "string",
+      "required": true
+    },
+    "shifts": {
+      "model": "shifts",
+      "via": "operator"
+    }
+  }
+}

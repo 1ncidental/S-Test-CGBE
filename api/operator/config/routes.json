@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/operator",
+      "handler": "Operator.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/operator/:_id",
+      "handler": "Operator.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/operator",
+      "handler": "Operator.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/operator/:_id",
+      "handler": "Operator.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/operator/:_id",
+      "handler": "Operator.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

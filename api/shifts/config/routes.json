@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/shifts",
+      "handler": "Shifts.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shifts/:_id",
+      "handler": "Shifts.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/shifts",
+      "handler": "Shifts.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/shifts/:_id",
+      "handler": "Shifts.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/shifts/:_id",
+      "handler": "Shifts.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

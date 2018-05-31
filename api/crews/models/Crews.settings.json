@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "crews",
+  "info": {
+    "name": "crews",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "operators": {
+      "collection": "operator",
+      "via": "crews"
+    },
+    "Crew Name": {
+      "type": "string"
+    },
+    "Shift": {
+      "model": "shifts",
+      "via": "shift"
+    },
+    "machines": {
+      "model": "machines",
+      "via": "crews"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "connection": "default",
+  "collectionName": "machines",
+  "info": {
+    "name": "machines",
+    "description": "Machine Data"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "MachineName": {
+      "unique": true,
+      "type": "string",
+      "required": true
+    },
+    "MachineCode": {
+      "unique": true,
+      "type": "string",
+      "required": true
+    },
+    "MaxMechSpeed": {
+      "type": "integer",
+      "required": true
+    },
+    "TargetKicksRunHr": {
+      "type": "integer",
+      "required": true
+    },
+    "TargetUPDTmins": {
+      "type": "integer",
+      "required": true
+    },
+    "TargetSUTmins": {
+      "type": "integer",
+      "required": true
+    },
+    "crews": {
+      "collection": "crews",
+      "via": "machines"
+    }
+  }
+}

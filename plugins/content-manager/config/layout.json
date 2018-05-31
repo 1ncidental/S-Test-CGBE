@@ -1,0 +1,57 @@
+{
+  "machines": {
+    "attributes": {
+      "MachineName": {
+        "appearance": ""
+      },
+      "MachineCode": {
+        "appearance": ""
+      },
+      "MaxMechSpeed": {
+        "appearance": ""
+      },
+      "TargetKicksRunHr": {
+        "appearance": ""
+      },
+      "TargetUPDTmins": {
+        "appearance": ""
+      },
+      "TargetSUTmins": {
+        "appearance": ""
+      }
+    }
+  },
+  "operator": {
+    "attributes": {
+      "Name": {
+        "appearance": ""
+      },
+      "Telephone": {
+        "appearance": ""
+      },
+      "ShiftWorked": {
+        "appearance": ""
+      }
+    }
+  },
+  "shifts": {
+    "attributes": {
+      "Hours": {
+        "appearance": ""
+      },
+      "Shift": {
+        "appearance": ""
+      }
+    }
+  },
+  "crews": {
+    "attributes": {
+      "Operators": {
+        "appearance": ""
+      },
+      "Crew Name": {
+        "appearance": ""
+      }
+    }
+  }
+}
